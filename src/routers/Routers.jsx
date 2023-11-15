@@ -1,11 +1,11 @@
 import { useRoutes } from "react-router-dom";
-import Pdf from "../components/Pdf";
+import Board from "~/pages/Boards/_id";
 
 const Routers = () => {
   const routing = useRoutes([
     {
       path: "/",
-      element: <Pdf />,
+      element: <Board />,
     },
   ]);
   return routing;
